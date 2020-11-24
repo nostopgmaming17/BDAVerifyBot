@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 console.log(process.env.PORT);
+.listen(process.env.PORT || 5001);
 client.on("ready", () => {
     console.log(client.user.username + " Is online!")
 });
