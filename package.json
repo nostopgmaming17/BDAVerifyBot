@@ -1,0 +1,22 @@
+{
+  "name": "bdaverifybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostopgmaming17/BDAVerifyBot.git"
+  },
+  "author": "Nostop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nostopgmaming17/BDAVerifyBot/issues"
+  },
+  "homepage": "https://github.com/nostopgmaming17/BDAVerifyBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.0"
+  }
+}
