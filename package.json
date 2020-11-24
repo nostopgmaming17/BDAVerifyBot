@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nostopgmaming17/BDAVerifyBot#readme",
   "dependencies": {
-    "discord.js": "^12.5.0"
+    "discord.js": "^12.5.0",
+    "express": "^4.17.1"
   }
 }

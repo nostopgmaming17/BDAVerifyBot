@@ -1,7 +1,13 @@
 const Discord = require("discord.js");
+const express = require("express");
+
 const client = new Discord.Client();
-console.log(process.env.PORT);
-.listen(process.env.PORT || 5001);
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log("App is running on port ${ PORT }");
+});
 client.on("ready", () => {
     console.log(client.user.username + " Is online!")
 });
