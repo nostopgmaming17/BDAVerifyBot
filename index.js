@@ -9,7 +9,7 @@ app.listen(PORT, () => {
     console.log("App is running on port ${ PORT }");
 });
 app.get('/', (req, res) => {
-    res.sendStatus(200);
+    return res.sendStatus(200);
 })
 client.on("ready", () => {
     console.log(client.user.username + " Is online!")
